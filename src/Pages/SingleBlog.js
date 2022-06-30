@@ -70,7 +70,7 @@ function SingleBlog({id}) {
                                 <Card style={{
                                     margin:'5px'
                                 }}>
-                                {/* <Card.Header>Quote</Card.Header> */}
+                                <Card.Header>Quote</Card.Header>
                                 <Card.Body>
                                     <blockquote className="blockquote mb-0">
                                     <p>
@@ -87,7 +87,7 @@ function SingleBlog({id}) {
                             )
                         })}
                     </ul>:<></>}</div>
-                    {console.log(comments)}
+                    {/* {console.log(comments)} */}
             </>:<Spinner className="loading" size="lg" animation="border" role="status">
             <span className="visually-hidden">Loading...</span>
             </Spinner>}

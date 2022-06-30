@@ -10,7 +10,7 @@ function Homepage() {
     const navigate = useNavigate();
 
     const gotoBlog = (index) => {
-        navigate.push(`/blog/${index}`);
+        navigate(`/blog/${index}`);
       }
 
     useEffect(() => {
@@ -49,7 +49,7 @@ function Homepage() {
                 )
             })}</>:<></>}
             </Row>
-            {console.log(posts)}
+            {/* {console.log(posts)} */}
         </div>
     )
 }
