@@ -114,5 +114,4 @@ function SingleBlog({id}) {
         </div>
     )
 }
-
 export default SingleBlog
