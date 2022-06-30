@@ -3,11 +3,11 @@ import axios from 'axios';
 import { baseUrl } from '../baseUrl';
 import './homepage.css';
 import {Card, Spinner, Row, Col} from 'react-bootstrap';
-import { useHistory } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 function Homepage() {
     const [posts, setPosts] = useState([]);
-    const navigate = useHistory();
+    const navigate = useNavigate();
 
     const gotoBlog = (index) => {
         navigate.push(`/blog/${index}`);
